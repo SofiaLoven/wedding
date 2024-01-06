@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap");
+$test-color: #d2e3bf;
 body {
   background-color: #e1d1d4;
+  background-color: $test-color;
   color: #0c0b3b;
   font-family: "Open Sans", sans-serif;
   line-height: 1.6;
@@ -55,6 +57,7 @@ body {
       padding: 6px 0;
       border-radius: 6px;
       background-color: #e1d1d4;
+      background-color: $test-color;
       border: #0c0b3b 2px solid;
       color: #0c0b3b;
       box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,

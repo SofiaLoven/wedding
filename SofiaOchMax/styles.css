@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap");
 body {
   background-color: #e1d1d4;
+  background-color: #d2e3bf;
   color: #0c0b3b;
   font-family: "Open Sans", sans-serif;
   line-height: 1.6;
@@ -50,6 +51,7 @@ body strong {
   padding: 6px 0;
   border-radius: 6px;
   background-color: #e1d1d4;
+  background-color: #d2e3bf;
   border: #0c0b3b 2px solid;
   color: #0c0b3b;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -104,6 +106,7 @@ header strong {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   color: #e1d1d4;
+  color: #d2e3bf;
   margin-left: 4px;
 }
 header ul {
@@ -116,25 +119,11 @@ header ul {
 }
 header ul a {
   color: #e1d1d4;
+  color: #d2e3bf;
   text-decoration: none;
 }
 header ul a:hover {
   text-decoration: underline;
-}
-
-.picture-1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/mainPage.JPG");
-  height: 400px;
-}
-
-.picture-2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/IMG_3668.JPG");
-  height: 400px;
-}
-
-.picture-3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/IMG_1920.JPG");
-  height: 400px;
 }
 
 .iframe {
@@ -145,4 +134,19 @@ header ul a:hover {
 
 .hidden {
   display: none;
+}
+
+.picture-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("./images/mainPage.JPG");
+  height: 400px;
+}
+
+.picture-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("./images/travelPage.JPG");
+  height: 400px;
+}
+
+.picture-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("./images/osaPage.JPG");
+  height: 400px;
 }/*# sourceMappingURL=styles.css.map */

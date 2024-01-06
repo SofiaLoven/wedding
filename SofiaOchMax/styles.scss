@@ -6,3 +6,21 @@
 .hidden {
   display: none;
 }
+
+.picture-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("./images/mainPage.JPG");
+  height: 400px;
+}
+
+.picture-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("./images/travelPage.JPG");
+  height: 400px;
+}
+
+.picture-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("./images/osaPage.JPG");
+  height: 400px;
+}
