@@ -23,6 +23,13 @@ body {
   flex-direction: column;
   gap: 20px;
   margin: 0 20px 80px 20px;
+  a {
+    color: #0c0b3b;
+    &:hover {
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
 
   .welcome {
     display: flex;
@@ -87,19 +94,17 @@ body {
         display: flex;
         flex-direction: column;
 
-        a {
-          color: #0c0b3b;
-          &:hover {
-            font-weight: 600;
-            text-decoration: none;
-          }
-        }
-
-        i {
+        .fa-arrow-right-long {
           padding: 8px;
           transition: 200ms;
           &:hover {
             transform: scale(1.8);
+          }
+        }
+        p {
+          span {
+            font-weight: 600;
+            margin-left: 12px;
           }
         }
       }
