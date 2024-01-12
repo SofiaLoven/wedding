@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap");
 body {
   background-color: #e1d1d4;
-  background-color: #d2e3bf;
+  background-color: #cce3de;
   color: #0c0b3b;
   font-family: "Open Sans", sans-serif;
   line-height: 1.6;
@@ -51,7 +51,7 @@ body strong {
   padding: 6px 0;
   border-radius: 6px;
   background-color: #e1d1d4;
-  background-color: #d2e3bf;
+  background-color: #cce3de;
   border: #0c0b3b 2px solid;
   color: #0c0b3b;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -104,14 +104,14 @@ header {
 }
 header strong {
   font-family: "Open Sans", sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   color: #e1d1d4;
-  color: #d2e3bf;
-  margin-left: 4px;
+  color: #cce3de;
+  margin-left: 8px;
 }
 header ul {
   list-style: none;
-  margin-right: 4px;
+  margin-right: 8px;
   margin-bottom: 0;
   padding: 0;
   display: flex;
@@ -119,8 +119,9 @@ header ul {
 }
 header ul a {
   color: #e1d1d4;
-  color: #d2e3bf;
+  color: #cce3de;
   text-decoration: none;
+  font-size: 16px;
 }
 header ul a:hover {
   text-decoration: underline;
@@ -130,6 +131,40 @@ header ul a:hover {
   margin: 20px 12px;
   display: flex;
   justify-content: center;
+}
+
+.mainPage h1,
+.mainPage h3 {
+  font-size: 1.6rem;
+  margin: 0;
+  margin-top: 20px;
+}
+.mainPage .infoTravel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.mainPage .infoTravel h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+.mainPage .infoTravel .living,
+.mainPage .infoTravel .travel,
+.mainPage .infoTravel .friday {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.mainPage .infoTravel .living a,
+.mainPage .infoTravel .travel a,
+.mainPage .infoTravel .friday a {
+  color: #0c0b3b;
+}
+.mainPage .infoTravel .living a:hover,
+.mainPage .infoTravel .travel a:hover,
+.mainPage .infoTravel .friday a:hover {
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .hidden {

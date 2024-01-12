@@ -1,0 +1,33 @@
+.mainPage {
+  h1,
+  h3 {
+    font-size: 1.6rem;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .infoTravel {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 0;
+    }
+
+    .living,
+    .travel,
+    .friday {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      a {
+        color: #0c0b3b;
+        &:hover {
+          font-weight: 600;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

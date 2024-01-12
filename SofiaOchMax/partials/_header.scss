@@ -1,4 +1,4 @@
-$test-color: #d2e3bf;
+$test-color: #cce3de;
 header {
   background-color: #0c0b3b;
   height: 100px;
@@ -13,15 +13,15 @@ header {
 
   strong {
     font-family: "Open Sans", sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     color: #e1d1d4;
     color: $test-color;
-    margin-left: 4px;
+    margin-left: 8px;
   }
 
   ul {
     list-style: none;
-    margin-right: 4px;
+    margin-right: 8px;
     margin-bottom: 0;
     padding: 0;
 
@@ -31,6 +31,7 @@ header {
       color: #e1d1d4;
       color: $test-color;
       text-decoration: none;
+      font-size: 16px;
 
       &:hover {
         text-decoration: underline;
