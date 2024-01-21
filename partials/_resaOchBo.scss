@@ -1,17 +1,57 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 40px 0;
+  @media (min-width: $layout-desktop) {
+    font-size: 48px;
+    margin: 90px 0;
+  }
+}
 .mainPage {
-  h1,
   h3 {
-    font-size: 1.6rem;
-    margin: 0;
-    margin-top: 20px;
+    font-size: 28px;
+    @media (min-width: $layout-desktop) {
+      font-size: 32px;
+    }
   }
   .infoTravel {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 80px;
+    @media (min-width: $layout-desktop) {
+      gap: 96px;
+    }
     h2 {
-      font-size: 1.4rem;
-      margin-bottom: 0;
+      font-size: 28px;
+      margin: 0;
+      @media (min-width: $layout-desktop) {
+        font-size: 32px;
+      }
+    }
+
+    .travel {
+      > div {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .guide {
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+        }
+
+        @media (min-width: $layout-desktop) {
+          flex-direction: row;
+          gap: 27px;
+        }
+      }
+
+      .map {
+        span {
+          font-size: 16px;
+        }
+      }
     }
 
     .living,
@@ -19,15 +59,18 @@
     .friday {
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      gap: 40px;
 
       a {
-        color: #0c0b3b;
-        &:hover {
-          font-weight: 600;
+        color: rgba(4, 22, 45, 1);
+        &:active {
+          font-weight: bold;
           text-decoration: none;
         }
       }
+    }
+    @media (min-width: $layout-desktop) {
+      max-width: 630px;
     }
   }
 }

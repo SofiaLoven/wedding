@@ -1,26 +1,38 @@
-@import "./partials/_main.scss";
-@import "./partials/_header.scss";
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Tienne:wght@400;700;900&display=swap");
+@import "./partials/main.scss";
+@import "./partials/header.scss";
 @import "./partials/osa";
 @import "./partials/resaOchBo";
+
+$layout-desktop: 400px;
 
 .hidden {
   display: none;
 }
 
 .picture-1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)),
     url("./images/mainPage.JPG");
-  height: 400px;
+  height: calc(100vh * 0.8);
+  @media (min-width: $layout-desktop) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)),
+      url("./images/mainBig.JPG");
+  }
 }
 
 .picture-2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-    url("./images/travelPage.JPG");
-  height: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)),
+    url("./images/heestrand.png");
+  height: calc(100vh * 0.8);
 }
 
 .picture-3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)),
     url("./images/osaPage.JPG");
-  height: 400px;
+  height: calc(100vh * 0.9);
+
+  @media (min-width: $layout-desktop) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)),
+      url("./images/osaBig.png");
+  }
 }
