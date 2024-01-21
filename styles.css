@@ -20,7 +20,7 @@ body h3 {
   gap: 80px;
   margin: 0 24px 80px 24px;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .mainPage {
     align-items: center;
     margin: 0 0 80px 0;
@@ -50,7 +50,7 @@ body h3 {
   text-align: center;
   font-size: 40px;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .mainPage .welcome h1 {
     font-size: 48px;
     margin: 0;
@@ -64,7 +64,7 @@ body h3 {
   width: 80px;
   mix-blend-mode: multiply;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .mainPage .welcome {
     max-width: 630px;
   }
@@ -74,7 +74,7 @@ body h3 {
   flex-direction: column;
   gap: 80px;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .mainPage .info {
     gap: 96px;
   }
@@ -82,7 +82,7 @@ body h3 {
 .mainPage .info h2 {
   font-size: 28px;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .mainPage .info h2 {
     font-size: 32px;
   }
@@ -95,7 +95,7 @@ body h3 {
 .mainPage .info a {
   text-decoration: underline;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .mainPage .info {
     max-width: 630px;
   }
@@ -113,7 +113,7 @@ body h3 {
 .mainPage .osa button:hover {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .mainPage .osa button {
     width: 100px;
   }
@@ -143,7 +143,7 @@ body h3 {
   align-items: center;
   gap: 8px;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .mainPage .questions {
     max-width: 630px;
   }
@@ -212,7 +212,7 @@ h1 {
   font-size: 40px;
   margin: 40px 0;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   h1 {
     font-size: 48px;
     margin: 90px 0;
@@ -222,7 +222,7 @@ h1 {
 .mainPage h3 {
   font-size: 28px;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .mainPage h3 {
     font-size: 32px;
   }
@@ -232,7 +232,7 @@ h1 {
   flex-direction: column;
   gap: 80px;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .mainPage .infoTravel {
     gap: 96px;
   }
@@ -241,7 +241,7 @@ h1 {
   font-size: 28px;
   margin: 0;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .mainPage .infoTravel h2 {
     font-size: 32px;
   }
@@ -256,7 +256,7 @@ h1 {
   flex-direction: column;
   gap: 16px;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .mainPage .infoTravel .travel > div {
     flex-direction: row;
     gap: 27px;
@@ -283,7 +283,7 @@ h1 {
   font-weight: bold;
   text-decoration: none;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .mainPage .infoTravel {
     max-width: 630px;
   }
@@ -297,7 +297,7 @@ h1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url("./images/mainPage.JPG");
   height: 80vh;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .picture-1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url("./images/mainBig.JPG");
   }
@@ -312,7 +312,7 @@ h1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url("./images/osaPage.JPG");
   height: 90vh;
 }
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .picture-3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url("./images/osaBig.png");
   }
