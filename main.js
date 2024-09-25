@@ -1,7 +1,8 @@
 const tablePlacing = document.querySelector("#tablePlacing");
+const rickrolled = document.querySelector("#rickrolled");
 const daysLeft = document.querySelector("#numOfDays");
 
-const weddingDate = new Date("Aug 31, 2024 14:30:00").getTime();
+const weddingDate = new Date("Aug 31, 2025 14:30:00").getTime();
 
 const countdown = setInterval(function () {
   var now = new Date().getTime();
@@ -23,5 +24,5 @@ const countdown = setInterval(function () {
 }, 1000);
 
 tablePlacing.addEventListener("click", () => {
-  tablePlacing.innerText = "Rickrolled!";
+  rickrolled.innerText = "Rickrolled!";
 });

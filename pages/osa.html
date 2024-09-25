@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sofia och Max Bröllop</title>
     <link rel="stylesheet" href="../styles.css" />
-    <script src="../main.js" defer></script>
+    <script src="form.js" defer></script>
   </head>
   <body>
     <header class="picture-3">
@@ -18,16 +18,47 @@
         </ul>
       </nav>
     </header>
-    <section class="iframe">
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSfKsTmnachZn7I1jKoKpTz4XD8c7F0C2PHE6fVZUUAuy7rwHA/viewform?embedded=true"
-        width="90%"
-        height="1400"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-        >Läser in …</iframe
-      >
+    <h1>Osa</h1>
+    <section class="rsvp">
+      <h2>Kommer du på bröllopet?</h2>
+      <form class="form" id="rsvp">
+        <div class="answer">
+          <input
+            type="radio"
+            id="answerYes"
+            name="answer"
+            checked
+            value="yes"
+          />
+          <label for="answerYes">Självklart</label>
+          <input type="radio" id="answerNo" name="answer" value="no" />
+          <label for="answerNo">Nej, tyvärr</label>
+        </div>
+        <div class="textInput">
+          <label for="name">Namn</label>
+          <input type="text" id="name" placeholder="För- och efternamn" />
+        </div>
+        <div class="textInput">
+          <label for="allergy">Allergier</label>
+          <input
+            type="text"
+            id="allergy"
+            placeholder="Dina allergier eller matpreferenser"
+          />
+        </div>
+        <div>
+          <label for="buss"
+            >Vill du åka med bussen mellan kyrkan och festlokalen?</label
+          >
+          <div class="buss">
+            <input type="radio" id="yes" name="buss" checked />
+            <label for="yes">Gärna</label>
+            <input type="radio" id="no" name="buss" />
+            <label for="no">Nej, tack</label>
+          </div>
+        </div>
+        <button>osa</button>
+      </form>
     </section>
   </body>
 </html>

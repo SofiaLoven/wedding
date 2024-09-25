@@ -199,12 +199,96 @@ header nav ul a:active {
   font-weight: bold;
 }
 
-.iframe {
-  margin: 40px 0;
+.rsvp {
   display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 0 24px 80px 24px;
+}
+@media (min-width: 480px) {
+  .rsvp {
+    align-items: center;
+    margin: 0 0 80px 0;
+    gap: 60px;
+  }
+}
+.rsvp .form {
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  width: 100vw;
-  height: 100vh;
+  padding: 32px 24px;
+  border-radius: 4px;
+  gap: 16px;
+}
+.rsvp .form label {
+  font-size: 12px;
+}
+.rsvp .form .answer,
+.rsvp .form .buss {
+  display: flex;
+  justify-content: space-around;
+  border: 1px rgb(4, 22, 45) solid;
+  border-radius: 4px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.rsvp .form .answer input[type=radio],
+.rsvp .form .buss input[type=radio] {
+  display: none;
+}
+.rsvp .form .answer label,
+.rsvp .form .buss label {
+  padding: 4px 8px;
+  margin: 2px;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+  transition: 0.2s all ease-in-out;
+}
+.rsvp .form .answer input[type=radio]:checked + label,
+.rsvp .form .buss input[type=radio]:checked + label {
+  background: rgb(4, 22, 45);
+  color: white;
+}
+.rsvp .form .textInput {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.rsvp .form .textInput input {
+  padding: 6px 10px;
+  border: 1px rgb(4, 22, 45) solid;
+  border-radius: 4px;
+}
+.rsvp .form button {
+  padding: 6px 10px;
+  background-color: rgb(4, 22, 45);
+  color: white;
+  border-radius: 40px;
+}
+.rsvp .form button:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.rsvp h2 {
+  font-size: 28px;
+  margin: 0;
+}
+@media (min-width: 480px) {
+  .rsvp h2 {
+    font-size: 32px;
+  }
+}
+
+h1 {
+  font-size: 40px;
+  margin: 40px 0;
+}
+@media (min-width: 480px) {
+  h1 {
+    font-size: 48px;
+    margin: 90px 0;
+  }
 }
 
 h1 {
